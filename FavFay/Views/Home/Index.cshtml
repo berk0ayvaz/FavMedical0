@@ -1,0 +1,18 @@
+﻿@using Microsoft.AspNetCore.Http;
+
+@{
+    string fullname = Context.Session.GetString("fullname");
+}
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <h4>Hoşgeldin @fullname</h4>
+  Çalışanları görüntülemek için çalışanlar butonuna tıklayınız.
+
+</body>
+</html>
